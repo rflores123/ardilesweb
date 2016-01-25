@@ -1,0 +1,53 @@
+input.failed{border:1px solid red;}
+textarea.failed{border:1px solid red;}
+select.failed{border:1px solid red;}
+
+select option{padding:2px 12px;}
+select optgroup{padding:2px 6px;}
+
+/* Autocomplete */
+.ui-autocomplete{z-index:9999;list-style:none;margin:0;padding:0;position:absolute;background:white;border:1px solid #ccc;border-top:none;border-radius:0 0 4px 4px;}
+.ui-autocomplete .ui-helper-reset li{list-style:none;}
+.ui-autocomplete li a{color:#808080;padding:4px 12px;display:block;border:1px solid #eee;border-right:none;border-left:none;}
+.ui-autocomplete li a:hover{color:#000000;text-decoration:none;background:#eee;font-weight:bold;cursor:pointer;}
+.ui-helper-hidden-accessible{display:none;}
+.ui-autocomplete-loading{background:url(images/ui-autocomplete-loading.gif) #F9F7ED no-repeat 98% center;}
+
+.block-loading {background: url(images/ajax-loader.gif) #eee center center no-repeat;position: absolute;width:100%;height:100%;z-index:999;opacity:0.4;}
+
+body{margin-top:40px;background: url(images/bg.jpg);}
+.navbar{border-radius:0;border-top:none;}
+
+.table thead th{padding: 8px 8px 16px;}
+.table tbody{background:#fff;}
+.table tbody tr:hover{background:#F9F7ED;}
+
+.none{display:none;}
+
+.report{background:#eee;}
+.report th{background:#eee;}
+.report thead th{background:#666666;color:#eee;}
+.report tr.sub-legend th{background:#3F4C6B;color:#eee;}
+.report .total{font-size:16px;font-weight:bold;}
+.report tbody tr.today td{border-top:1px solid #73880A;border-bottom:1px solid #73880A;background:#CDEB8B;}
+.report tbody tr.today th{border-top:1px solid #73880A;border-bottom:1px solid #73880A;background:#6BBA70;color:#eee;}
+.report .bg-none{background:#FCFCFC;}
+.report td.bg-sold{background:#FFFF88;}
+.report td.bg-earned{background:#C3D9FF;}
+.report td.bg-sold-total{background:#C79810;color:#eee;}
+.report td.bg-earned-total{background:#4096EE;color:#eee;}
+
+.resume {text-align:center;}
+.resume .legend{display:block;}
+.resume .total{font-size:18px;font-weight:bold;}
+.resume .glyphicon{font-size:16px;}
+
+form{position:relative;}
+
+.badge.badge-green{background:green;}
+.badge.badge-red{background:red;}
+
+footer{margin-bottom:30px;}
+
+/* DatePIcker */
+.datepicker{top:0;left:0;padding:4px;margin-top:1px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}.datepicker:before{content:'';display:inline-block;border-left:7px solid transparent;border-right:7px solid transparent;border-bottom:7px solid #ccc;border-bottom-color:rgba(0,0,0,.2);position:absolute;top:-7px;left:6px}.datepicker:after{content:'';display:inline-block;border-left:6px solid transparent;border-right:6px solid transparent;border-bottom:6px solid #fff;position:absolute;top:-6px;left:7px}.datepicker>div{display:none}.datepicker table{width:100%;margin:0}.datepicker td,.datepicker th{text-align:center;width:20px;height:20px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}.datepicker td.day:hover{background:#eee;cursor:pointer}.datepicker td.day.disabled{color:#ccc;}.datepicker td.new,.datepicker td.old{color:#999}.datepicker td.active,.datepicker td.active:hover{background-color:#006dcc;background-image:-moz-linear-gradient(top,#08c,#04c);background-image:-webkit-gradient(linear,0 0,0 100%,from(#08c),to(#04c));background-image:-webkit-linear-gradient(top,#08c,#04c);background-image:-o-linear-gradient(top,#08c,#04c);background-image:linear-gradient(to bottom,#08c,#04c);background-repeat:repeat-x;border-color:#04c #04c #002a80;border-color:rgba(0,0,0,.1)rgba(0,0,0,.1)rgba(0,0,0,.25);*background-color:#04c;filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,.25)}.datepicker td.active.active,.datepicker td.active.disabled,.datepicker td.active:active,.datepicker td.active:focus,.datepicker td.active:hover,.datepicker td.active:hover.active,.datepicker td.active:hover.disabled,.datepicker td.active:hover:active,.datepicker td.active:hover:focus,.datepicker td.active:hover:hover,.datepicker td.active:hover[disabled],.datepicker td.active[disabled]{color:#fff;background-color:#04c;*background-color:#003bb3}.datepicker td span{display:block;width:47px;height:54px;line-height:54px;float:left;margin:2px;cursor:pointer;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}.datepicker td span:hover{background:#eee}.datepicker td span.active{background-color:#006dcc;background-image:-moz-linear-gradient(top,#08c,#04c);background-image:-webkit-gradient(linear,0 0,0 100%,from(#08c),to(#04c));background-image:-webkit-linear-gradient(top,#08c,#04c);background-image:-o-linear-gradient(top,#08c,#04c);background-image:linear-gradient(to bottom,#08c,#04c);background-repeat:repeat-x;border-color:#04c #04c #002a80;border-color:rgba(0,0,0,.1)rgba(0,0,0,.1)rgba(0,0,0,.25);*background-color:#04c;filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,.25)}.datepicker td span.active.active,.datepicker td span.active.disabled,.datepicker td span.active:active,.datepicker td span.active:focus,.datepicker td span.active:hover,.datepicker td span.active[disabled]{color:#fff;background-color:#04c;*background-color:#003bb3}.datepicker td span.old{color:#999}.datepicker th.switch{width:145px}.datepicker th.next,.datepicker th.prev{font-size:21px}.datepicker thead tr:first-child th{cursor:pointer}.datepicker thead tr:first-child th:hover{background:#eee}.input-append.date .add-on i,.input-prepend.date .add-on i{display:block;cursor:pointer;width:16px;height:16px}.datepicker td.today{background:#C3D9FF;border-radius:6px;}.datepicker td.today:hover{background:#C3D9FF;border-radius:6px;}

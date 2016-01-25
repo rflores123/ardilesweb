@@ -1,0 +1,39 @@
+/*para cambiar el color de fondo*/
+body{
+	background-color: #000000;
+	color: #FDF9F9;
+}
+/*para darle color al fondo del encahbezado*/
+.jumbotron {
+	background-color: #000000;
+}
+/*para darle color a las letras*/
+.jumbotron p,.jumbotron h2,.jumbotron p1 {
+	color: #ffffff;
+}
+/*para ajustar el tamaño de la imagen*/
+img.banner {
+	max-width: 900px;
+}
+/*esto es para ajustar el alto de las imagenes en transicion*/
+img.banner1{
+	max-height: 450px;
+}
+.form-group h1, .form-group p {
+	color: #ffffff;
+}
+.panel {
+  border-radius: 10px;
+	border: 10px solid;
+	border-color: #EBF3EC;
+  background-color: #000000
+}
+
+.container1 {
+  width: 400px;
+}
+body1 {
+
+ background-image: url("../assets/img/LegueOfLeguends.jpg");
+
+}
